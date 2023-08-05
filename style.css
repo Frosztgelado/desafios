@@ -1,0 +1,61 @@
+@import url('https://fonts.cdnfonts.com/css/robotech-gp');
+
+
+
+/*ESTILO TOPO*/ 
+    body{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin: 0;
+    }
+#title{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    background-color: turquoise;
+    color: black;
+    margin: 0;
+    font-family: 'ROBOTECH GP', sans-serif;
+    font-size: 30pt;
+}
+
+.card-list{
+  background-color: transparent;
+  background-image: linear-gradient(to bottom, turquoise, blue);
+  margin: 0;
+  padding-top: 5px;
+  padding-bottom: 30px;
+}
+.card {
+  background-size: cover;
+  margin: 30px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  transition: all ease-in-out 0.3s;
+  cursor: pointer;
+  background-color: rgba(176, 176, 244, 0.4);
+}
+    .card-header {
+    padding: 10px;
+  }
+  
+  .card-body {
+    padding: 10px;
+  }
+
+    .card p{
+      display: none;
+    }
+
+    .card:hover p{
+      display: block;
+    }
+    .card:hover{
+        border: 1px solid #212121;
+
+    }
+  
+
+
+  
