@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: rgb(38, 200, 35);
+  background-color: #172627;
 }
 
 header {
@@ -13,18 +13,20 @@ header {
   justify-content: center;
   font-weight: bold;
   font-size: 25pt;
+  color: white;
 }
 
 #form {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgba(0, 255, 255, 0.448);
+  background-color: #20CD8D;
   margin: 10px 100px 10px 100px;
   width: auto;
-  border: 1px solid rgba(0, 255, 255);
+  border: 1px solid #7ef5c9;
   border-radius: 20px;
   padding-bottom: 20px;
+  color: rgb(13, 13, 13);
 }
 .secoes {
   margin: 10px 10px 10px 10px;
@@ -47,7 +49,7 @@ button {
   border-radius: 10px;
   border: none;
   transition: all 0.3s;
-  background-color: rgb(67, 67, 199);
+  background-color: #172627;
   color: white;
   margin-bottom: 15px;
 }
