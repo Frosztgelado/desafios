@@ -6,42 +6,6 @@ function addCards() {
         "Crie uma calculadora que possa realizar operações básicas como adição, subtração, multiplicação e divisão.",
       url: "desafios/1_Calculadora/calculadora.html",
     },
-    {
-      title: "Desafio 2 - Jogo da Forca",
-      content:
-        "Crie uma calculadora que possa realizar operações básicas como adição, subtração, multiplicação e divisão",
-      url: "desafios/1_Calculadora/calculadora.html",
-    },
-    {
-      title: "Desafio 2 - Jogo da Forca",
-      content:
-        "Crie uma calculadora que possa realizar operações básicas como adição, subtração, multiplicação e divisão",
-      url: "desafios/1_Calculadora/calculadora.html",
-    },
-    {
-      title: "Desafio 2 - Jogo da Forca",
-      content:
-        "Crie uma calculadora que possa realizar operações básicas como adição, subtração, multiplicação e divisão",
-      url: "desafios/1_Calculadora/calculadora.html",
-    },
-    {
-      title: "Desafio 2 - Jogo da Forca",
-      content:
-        "Crie uma calculadora que possa realizar operações básicas como adição, subtração, multiplicação e divisão",
-      url: "desafios/1_Calculadora/calculadora.html",
-    },
-    {
-      title: "Desafio 2 - Jogo da Forca",
-      content:
-        "Crie uma calculadora que possa realizar operações básicas como adição, subtração, multiplicação e divisão",
-      url: "desafios/1_Calculadora/calculadora.html",
-    },
-    {
-      title: "Desafio 2 - Jogo da Forca",
-      content:
-        "Crie uma calculadora que possa realizar operações básicas como adição, subtração, multiplicação e divisão",
-      url: "desafios/1_Calculadora/calculadora.html",
-    },
   ];
 
   for (let clist = 0; clist < cards.length; clist++) {

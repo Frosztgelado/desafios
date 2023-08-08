@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: rgb(255, 255, 49);
+  background-color: rgb(38, 200, 35);
 }
 
 header {
@@ -37,8 +37,11 @@ header {
   border-radius: 5px;
   border: none;
   padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 button {
+  width: 150px;
   cursor: pointer;
   padding: 5px 10px 5px 10px;
   border-radius: 10px;
@@ -46,6 +49,7 @@ button {
   transition: all 0.3s;
   background-color: rgb(67, 67, 199);
   color: white;
+  margin-bottom: 15px;
 }
 
 button:hover {
@@ -55,4 +59,22 @@ button:hover {
 
 select {
   cursor: pointer;
+}
+
+
+@media (min-width: 768px) {
+  .input{
+    width: 300px;
+  }
+  button{
+    width: 50%;
+  }
+
+  #form{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    
+  }
 }
