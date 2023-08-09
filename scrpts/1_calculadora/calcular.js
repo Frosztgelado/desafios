@@ -43,3 +43,8 @@ class Calculadora {
     return valor;
   }
 }
+
+const handlerCalculator = () => {
+  const calculo = new Calculadora();
+  calculo.Calculate();
+}

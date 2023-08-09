@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>Adivinhação</header>
+
+    <section id="form">
+      <div id="info">
+        <h4>Acerte o numero!</h4>
+        <p>Iremos gerar um número de 0 a 100 e você tem que tentar acertar o numero.</p>
+        <button onclick="game()">Gerar!</button>
+      </div>
+      <div id="principal">
+        <h4>Numero gerado, tente acertar.</h4>
+        <input id="labelNumber" class="input" type="number" placeholder="Numero de 0 a 100">
+        <button id="newAttempt">Tentar</button>
+        <div id="message">
+        </div>
+      </div>
+      <div id="winDiv">
+        <p id="winMsg"></p>
+        <button onclick="game()">Tentar novamente!</button>
+      </div>
+
+    </section>
+
+    <script src="/scrpts/2_adivinhacao/numberGen.js"></script>
+  </body>
+</html>

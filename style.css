@@ -64,7 +64,7 @@ body {
 }
 
 .image__background {
-  width: calc(100vw - 78px);
+  width: calc(100vw - 62px);
   height: 100%;
   object-fit: cover;
   position: absolute;
